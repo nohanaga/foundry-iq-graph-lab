@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.functional-test/
+.foundry-iq/
+foundry-iq-skills/
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
