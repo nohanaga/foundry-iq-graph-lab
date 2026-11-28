@@ -1,5 +1,7 @@
 # foundry-iq-graph-lab
 
+英語圏の読者向けの英語版（ノートブック、サンプル記事、README）は [en/](./en/README.md) に配置しています。English edition: [en/README.md](./en/README.md).
+
 ## サマリー
 
 Foundry IQ の **Entity Graph、Topic Graph、オントロジー**を検証する 3 冊の機能テストと、構築済みのグラフを **Agentic Retrieval** から使う 2 冊の Notebook を合わせた、計 5 冊の Jupyter Notebook の配布セットです。Entity Graph と Topic Graph は、それぞれの機能テストだけで生成から登録・読み戻し・可視化・GQL 探索まで進められます。Agentic Retrieval の詳細は [Agentic retrieval in Foundry IQ](https://learn.microsoft.com/azure/search/agentic-retrieval-overview) を参照してください。
@@ -58,6 +60,7 @@ flowchart LR
 | [data/heritage-sites/](./data/heritage-sites) | 架空の世界遺産を題材にした Markdown 記事 10 件。一覧は下の表のとおりです |
 | [.env.example](./.env.example) | 接続先、デプロイ名、モデル単価の設定例 |
 | [.gitignore](./.gitignore) | 実行時の設定、作業データ、仮想環境などを除外する設定 |
+| [en/](./en/README.md) | 英語版一式（ノートブック 5 冊、英語のサンプル記事 2 件、`data/heritage-sites` の英語記事 10 件、`.env.example`）。作業ディレクトリは `en` フォルダーです |
 
 入力記事とノートブックを同じフォルダーに配置してください。外部ランタイムの取得・配置方法は、下の「5.2 ランタイムの手動取得・配置」に記載しています。
 
